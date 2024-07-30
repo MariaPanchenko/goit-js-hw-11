@@ -63,9 +63,13 @@ input:active {
 .search-button:hover {
   background-color: rgba(108, 140, 255, 1);
 }
-.image-container {
+.gallery {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.image-container {
   margin-bottom: 15px;
 }
 a {
@@ -75,8 +79,8 @@ a {
 img {
   display: block;
 
-  width: 560px;
-  height: 500px;
+  width: 360px;
+  height: 300px;
   object-fit: cover;
 }
 
